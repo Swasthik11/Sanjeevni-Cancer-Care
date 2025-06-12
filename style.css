@@ -146,11 +146,11 @@ footer {
   background: #7b2d8a;
   color: #fff;
   font-family: 'Segoe UI', sans-serif;
+  padding-top: 40px;
 }
 
 /* Footer Nav */
 .footer-nav {
-  background: #7b2d8a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,13 +180,13 @@ footer {
 /* Footer Box */
 .footer-box {
   background: #fff;
-  flex-direction: column;
+  color: #333;
   text-align: center;
-  padding: 20px;
+  padding: 25px 20px;
   max-width: 90%;
-  margin: 0 auto;
+  margin: 20px auto;
   border-radius: 6px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.05); /* optional subtle shadow */
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
 }
 
 .footer-box img {
@@ -198,7 +198,6 @@ footer {
   font-size: 24px;
   font-weight: bold;
   margin: 10px 0;
-  flex: 1 1 300px;
 }
 
 .read-more-btn {
@@ -216,8 +215,8 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 30px 10px 50px;
-  gap: 20px;
+  padding: 40px 10px 50px;
+  gap: 30px;
 }
 
 .contact-item {
@@ -268,11 +267,12 @@ footer {
 
   .footer-box {
     background: #fff;
+    color: #333;
     flex-direction: column;
     text-align: center;
     padding: 20px;
     max-width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 6px;
   }
 
