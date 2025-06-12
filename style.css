@@ -178,18 +178,11 @@
   
   /* Footer Box */
   .footer-box {
-    background: #fff;
-    color: #6e287b;
-    padding: 40px 20px;
+    flex-direction: column;
     text-align: center;
-    border-radius: 8px 8px 0 0;
-    margin: 0 auto;
-    max-width: 1200px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
+    max-width: 90%; /* Prevent full width */
+    margin: 0 auto;  /* Center the box */
   }
   
   .footer-box img {
