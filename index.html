@@ -7,27 +7,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <div class="top-bar">Helpline : 6366975666</div>
-        <nav class="navbar">
-          <img src="header_logo.svg" alt="Cancer Ribbon" />
-      
-          <!-- Hamburger Icon -->
-          <button id="menu-toggle" class="hamburger">&#9776;</button>
-      
-          <!-- Navigation Links -->
-          <ul id="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a class="active" href="#">About Us</a></li>
-            <li><a href="#">Health Support Program</a></li>
-            <li><a href="#">Get Involved</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
-      
-      
-      
+  <header>
+    <div class="top-bar">Helpline : 6366975666</div>
+    <nav class="navbar">
+      <img src="header_logo.svg" alt="Cancer Ribbon" />
+
+      <!-- Hamburger Icon -->
+      <button id="menu-toggle" class="hamburger">&#9776;</button>
+
+      <!-- Navigation Links -->
+      <ul id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a class="active" href="#">About Us</a></li>
+        <li><a href="#">Health Support Program</a></li>
+        <li><a href="#">Get Involved</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <section class="about">
     <h1>About Us</h1>
@@ -44,7 +41,6 @@
           <li>Conduct Educational Workshops</li>
           <li>Increase Community Outreach to Create Awareness about cancer</li>
         </ul>
-        
       </div>
     </div>
   </section>
@@ -62,11 +58,9 @@
       <li>Old age home for the needy via a sustainable model.</li>
     </ul>
   </section>
-  
 
   <footer>
-    <!-- White Box Section -->
-      <!-- Footer Navigation Menu -->
+    <!-- Footer Navigation Menu -->
     <nav class="footer-nav">
       <img src="vision_img.svg" alt="Ribbon" class="ribbon-icon" />
       <a href="#">Home</a>
@@ -76,14 +70,14 @@
       <a href="#">Contact Us</a>
       <img src="vision_img.svg" alt="Ribbon" class="ribbon-icon" />
     </nav>
+
+    <!-- White Box Section -->
     <div class="footer-box">
       <img src="header_logo.svg" alt="Sanjeevini Logo" />
       <h2>With You in Every Step of Care During Cancer</h2>
       <a href="#" class="read-more-btn">Read More</a>
     </div>
-  
-   
-  
+
     <!-- Purple Contact Info Section -->
     <div class="footer-contact">
       <div class="contact-item">
@@ -104,9 +98,17 @@
       </div>
     </div>
   </footer>
-  
-  
-   
-  
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuToggle = document.getElementById('menu-toggle');
+      const navLinks = document.getElementById('nav-links');
+
+      menuToggle.addEventListener('click', function () {
+        navLinks.classList.toggle('show');
+      });
+    });
+  </script>
 </body>
 </html>
